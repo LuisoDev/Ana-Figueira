@@ -87,7 +87,7 @@ font-weight: 600;
 	background: coral;
 	max-height: 1500px;
 	height: 1500px;
-	margin: 1.5% auto;
+	margin: auto; auto;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -381,7 +381,7 @@ figure .frontal {
 
 @media (max-width: 375px){
 	.banner h1{
-		font-size: 30px;
+		font-size: 35px;
 
 	}
 	.contenedor{
@@ -415,7 +415,7 @@ figure .frontal {
 }
 @media (max-width: 350px){
 	.banner h1{
-		font-size: 25px;
+		font-size: 30px;
 
 	}
 }
@@ -452,3 +452,19 @@ figure .frontal {
 	border-radius: 50%;
 	margin-top: 0.75%;
 }
+
+@media (min-width: 0px) { 
+	.container-fluid{
+		padding-right: 0;
+    	padding-left: 0;
+	 }
+	 .col {
+	    position: relative;
+	    width: 100%;
+	    min-height: 1px;
+	    padding-right: 0.1px;
+	    padding-left: 0px;
+	}
+}
+
+
